@@ -1,0 +1,4 @@
+age,cholesterol,blood_pressure,target
+50,160,150,1
+50,180,155,0
+50,170,160,1

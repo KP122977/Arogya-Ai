@@ -47,6 +47,16 @@ function Navbar() {
           >
             Predict
           </Link>
+          <Link
+            to="/hearthealth"
+            className={`transition-all duration-200 hover:scale-105 ${
+              location.pathname === "/hearthealth"
+                ? "text-sky-600 border-b-2 border-sky-500"
+                : "text-gray-700"
+            }`}
+          >
+            Heart
+          </Link>
         </div>
       </div>
     </nav>

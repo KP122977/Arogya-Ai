@@ -31,7 +31,7 @@ function HomePage() {
       desc: "Heart disease risk analysis and care insights",
       color: "from-red-100 to-red-200",
       border: "border-red-300",
-      route: "/heart",
+      route: "/hearthealth",
     },
     {
       icon: "🧬",

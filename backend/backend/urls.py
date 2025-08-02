@@ -3,5 +3,8 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('predictor.urls')), # Main API endpoints under /api/
+    path('', include('predictor.urls')), 
 ]
+
+
+
